@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tíbika</title>
+  <meta name="description" content="Una rutina simple, paso a paso, para tu primera fermentación de tíbicos.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <a class="brand" href="index.html">
+      <img src="./images/tibikaBase.svg" alt="" srcset="" width="40px" height="40px">
+      <span class="brand__name">TÍBIKA</span>
+    </a>
+
+    <nav class="site-nav">
+      <ul class="site-nav__links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#productos">Productos</a></li>
+        <li><a href="beneficios.html">Beneficios</a></li>
+        <li><a href="guia-de-cultivo.html" class="current">Guía de cultivo</a></li>
+      </ul>
+
+      <div class="account">
+        <a href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="8" cy="21" r="1"/>
+            <circle cx="19" cy="21" r="1"/>
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+          </svg>
+        </a>
+        <a href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero__content">
+        <h1>Tu primera fermentación, paso a paso.</h1>
+        <p>Una rutina simple para mantener tus tíbicos activos y conseguir una bebida equilibrada desde el primer frasco.</p>
+        <a class="btn btn--dark" href="https://nutribrew.es/como-hacer-kefir-de-agua-guia-completa/" target="_blank">
+          Ver guía de cultivo 
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero__media">
+        <img src="images/guia-fermentacion.png" alt="Ingredientes para la primera fermentación: limón, azúcar, un frasco con tíbicos y una tela para cubrirlo" width="742" height="620">
+      </div>
+    </section>
+
+    <section class="ingredients">
+      <h2>Solo necesitas cinco cosas.</h2>
+      <ul class="ingredient-list">
+        <li class="ingredient">1 L de agua</li>
+        <li class="ingredient">40 g de azúcar o fruta fresca</li>
+        <li class="ingredient">50 g de tíbicos</li>
+        <li class="ingredient">1 frasco de vidrio</li>
+        <li class="ingredient">Tela y liga</li>
+      </ul>
+    </section>
+
+    <section class="method">
+      <h2>Solo cuatro pasos.</h2>
+      <ol class="method-steps">
+        <li class="method-step">
+          <span class="method-step__number">01</span>
+          <h3>Prepara</h3>
+          <p>Disuelve 40 g de azúcar o añade la fruta en 1 litro de agua sin cloro.</p>
+        </li>
+        <li class="method-step">
+          <span class="method-step__number">02</span>
+          <h3>Alimenta</h3>
+          <p>Añade 50 g de tíbicos y una rodaja de limón.</p>
+        </li>
+        <li class="method-step">
+          <span class="method-step__number">03</span>
+          <h3>Fermenta</h3>
+          <p>Cubre con tela y deja reposar entre 24 y 48 horas.</p>
+        </li>
+        <li class="method-step">
+          <span class="method-step__number">04</span>
+          <h3>Cuela</h3>
+          <p>Separa los tíbicos con un colador plástico y envasa.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="storage">
+      <div class="storage__image">
+        <img src="images/Botellas saborizadas.png" alt="Tres botellas de vidrio con kéfir de agua saborizado con frutos rojos, limón y moras" width="540" height="430">
+      </div>
+      <div class="storage__content">
+        <h2>¿Cómo lo conservo?</h2>
+        <p>Embotella el kéfir colado y refrigera durante 12–24 horas.</p>
+        <p class="storage__warning">Abre la botella con cuidado, la presión aumenta rápidamente.</p>
+      </div>
+    </section>
+
+    <ul class="tips">
+      <li class="tip">
+        <h3>Si huele ácido</h3>
+        <p>Reduce el tiempo de fermentación o usa más agua en la siguiente tanda.</p>
+      </li>
+      <li class="tip">
+        <h3>Si no hay burbujas</h3>
+        <p>Dales dos ciclos; evita agua clorada y utensilios metálicos.</p>
+      </li>
+      <li class="tip">
+        <h3>Si vas a descansar</h3>
+        <p>Refrigera los tíbicos en agua azucarada hasta una semana.</p>
+      </li>
+    </ul>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="footer-logo" href="index.html">
+         <img src="./images/tibikaLogoHorizontal.svg" alt="" srcset="" width="299px" height="82">
+        </span>
+      </a>
+
+      <nav class="footer-col">
+        <h2>Explorar</h2>
+        <ul>
+          <li><a href="index.html#productos">Productos</a></li>
+          <li><a href="beneficios.html">Beneficios</a></li>
+          <li><a href="guia-de-cultivo.html">Guía de cultivo</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2>Contacto</h2>
+        <ul>
+          <li><a href="mailto:hola@tibika.com">hola@tibika.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <p class="site-footer__legal">© 2026 TIBIKA · Cultivos artesanales · Envíos refrigerados</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tíbika</title>
+  <meta name="description" content="Tíbicos de agua para preparar kéfir.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <a class="brand" href="index.html">
+      <img src="./images/tibikaBase.svg" alt="" srcset="" width="40px" height="40px">
+      <span class="brand__name">TÍBIKA</span>
+    </a>
+
+    <nav class="site-nav">
+      <ul class="site-nav__links">
+        <li><a href="index.html" class="current">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="beneficios.html">Beneficios</a></li>
+        <li><a href="guia-de-cultivo.html">Guía de cultivo</a></li>
+      </ul>
+
+      <div class="account">
+        <a href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="8" cy="21" r="1"/>
+            <circle cx="19" cy="21" r="1"/>
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+          </svg>
+        </a>
+        <a href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero__content">
+        <h1>Cultivos vivos, bebidas vivas.</h1>
+        <p>Tíbicos de agua para preparar kéfir fresco, ligero y bueno para tu salud.</p>
+        <a class="btn btn--dark" href="#productos">
+          Conoce nuestros productos 
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero__media">
+        <img src="images/kefir-agua-segunda-fermentacion-sabores-frutas.jpg" alt="Botellas de vidrio con kéfir de agua junto a higos y cáscara de limón" width="730" height="680">
+      </div>
+    </section>
+
+    <section class="intro">
+      <h2 class="intro__title">Un refresco casero, completamente natural.</h2>
+      <ol class="steps">
+        <li class="step">
+          <span class="step__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="12" width="8" height="8" rx="1.5"/>
+              <rect x="13" y="12" width="8" height="8" rx="1.5"/>
+              <rect x="8" y="3" width="8" height="8" rx="1.5"/>
+            </svg>
+          </span>
+          <h3>Agrega</h3>
+          <p>Agua, azúcar o fruta y tus tíbicos.</p>
+        </li>
+        <li class="step">
+          <span class="step__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </span>
+          <h3>Espera</h3>
+          <p>Fermenta entre 24 y 48 horas.</p>
+        </li>
+        <li class="step">
+          <span class="step__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6 9 17l-5-5"/>
+            </svg>
+          </span>
+          <h3>Disfruta</h3>
+          <p>Cuela, saboriza y sirve frío.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="shop" id="productos">
+
+      <div class="shop__header">
+        <h2>Productos</h2>
+        <a class="btn btn--light" href="https://nutribrew.es/recetas-de-kefir-de-agua/" target="_blank">
+          Ver todos los productos 
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <div class="product__image">
+            <img src="images/tibicos.jpg" alt="Frasco de vidrio con tíbicos vivos" width="378" height="300">
+          </div>
+          <h3 class="product__name">Tíbicos vivos</h3>
+          <p class="product__detail">Cultivo fresco de tíbicos · 100 g</p>
+          <div class="product__buy">
+            <p class="product__price">$25.000 COP</p>
+            <button class="product__add" type="button">Añadir +</button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product__image">
+            <img src="images/kefir-agua-fresa.jpg" alt="Botella de kéfir de fresa con fresas y limón" width="378" height="300">
+          </div>
+          <h3 class="product__name">Kéfir de fresa</h3>
+          <p class="product__detail">Bebida de kéfir de agua fermentada en fresa</p>
+          <div class="product__buy">
+            <p class="product__price">$30.000 COP</p>
+            <button class="product__add" type="button">Añadir +</button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product__image">
+            <img src="images/kefir-agua-coco.jpg" alt="Botella de kéfir de coco junto a un cuenco con coco y fruta seca" width="378" height="300">
+          </div>
+          <h3 class="product__name">Kéfir de coco</h3>
+          <p class="product__detail">Bebida de kéfir de agua fermentada en coco</p>
+          <div class="product__buy">
+            <p class="product__price">$30.000 COP</p>
+            <button class="product__add" type="button">Añadir +</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Mejora tu digestión solamente con una bebida.</h2>
+      <a class="btn btn--dark" href="#productos">
+        Quiero mis tíbicos 
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="footer-logo" href="index.html">
+         <img src="./images/tibikaLogoHorizontal.svg" alt="" srcset="" width="299px" height="82">
+        </span>
+      </a>
+
+      <nav class="footer-col">
+        <h2>Explorar</h2>
+        <ul>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="beneficios.html">Beneficios</a></li>
+          <li><a href="guia-de-cultivo.html">Guía de cultivo</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2>Contacto</h2>
+        <ul>
+          <li><a href="mailto:hola@tibika.com">hola@tibika.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <p class="site-footer__legal">© 2026 TIBIKA · Cultivos artesanales · Envíos refrigerados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
