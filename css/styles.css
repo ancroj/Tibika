@@ -610,7 +610,7 @@ button {
   line-height: 1.5;
 }
 
-.cta,
+.final-call,
 .note {
   display: flex;
   align-items: center;
@@ -619,11 +619,11 @@ button {
   background: var(--lime);
 }
 
-.cta {
+.final-call {
   padding: 76px var(--gutter);
 }
 
-.cta h2 {
+.final-call h2 {
   max-width: 720px;
   font-size: 38px;
   font-weight: 800;
@@ -805,13 +805,13 @@ button {
     flex-direction: column;
   }
 
-  .cta,
+  .final-call,
   .note {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .cta h2 {
+  .final-call h2 {
     font-size: 30px;
   }
 
